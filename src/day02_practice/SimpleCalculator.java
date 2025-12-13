@@ -12,7 +12,7 @@ public class SimpleCalculator {
     }
     public static double divide(int a, int b){
         if (b == 0){
-            system.out.println("Cannot divide by zero");
+            System.out.println("Cannot divide by zero");
             return 0;
         }
         return(double) a/b;
